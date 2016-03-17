@@ -108,6 +108,19 @@ _**Bold Italic**_ or **_Bold Italic_**
 |----------|--------|
 | ```[An inline-style link](http://literasee.io)``` | [An inline-style link](http://literasee.io)|
 | ```[An inline-style link with title](http://literasee.io "Literasee Homepage")``` | [An inline-style link with title](http://literasee.io "Literasee Homepage") |
-| ```[A reference-style link][Arbitrary case-insensitive reference text]``` | [A reference-style link][Arbitrary case-insensitive reference text] |
-| ```[A numbered reference-style link][1]``` | [A numbered reference-style link][1] |
-| ```[A relative reference to a repository file](../blob/master/LICENSE)``` | [A relative reference to a repository file](../blob/master/LICENSE) |
+
+---
+
+## Embedded images
+
+===
+
+Literasee logo embedded inline and reference (hover to see the title text):
+
+```
+Inline-style:
+![alt text](https://avatars0.githubusercontent.com/u/16685371?v=3&s=200 "Literasee logo")
+```
+
+Inline-style:
+![alt text](https://avatars0.githubusercontent.com/u/16685371?v=3&s=200 "Literasee logo")
