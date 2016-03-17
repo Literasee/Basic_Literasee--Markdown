@@ -3,11 +3,22 @@
 
 ---
 
-## This is the second slide
+## Headers
 
-A blank line, then 3 dashes, then another blank line delimit a new slide.
+```
+# H1 Heading
+```
 
-Note: You can create speaker notes by beginning the line with "Note:", like this.
+# H1 Heading
+
+===
+
+```
+## H2 Heading
+```
+
+## H2 Heading
+
 
 ---
 
