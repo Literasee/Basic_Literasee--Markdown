@@ -90,18 +90,17 @@ _**Bold Italic**_ or **_Bold Italic_**
 
 ===
 
-
-| Name | Description          |
+| Name | Description |
 | ------------- | ----------- |
-| Help      | Display the help window.|
-| Close     | Closes a window     |
-| Email     | Initiate email window |
-| ~~Twitter~~   | ~~Tweet~~ |
+| Help | Display the help window.|
+| Close | Closes a window     |
+| Email | Initiate email window |
+| ~~Twitter~~ | ~~Tweet~~ |
 
 
 ---
 
-## hypertext-links
+## Hypertext-Links
 
 ===
 
