@@ -82,3 +82,33 @@ _**Bold Italic**_ or **_Bold Italic_**
     1. Ordered sub-list
     2. Second item of sub-list
 4. And another item.
+
+
+---
+
+## Tables
+
+===
+
+
+| Name | Description          |
+| ------------- | ----------- |
+| Help      | Display the help window.|
+| Close     | Closes a window     |
+| Email     | Initiate email window |
+| ~~Twitter~~   | ~~Tweet~~ |
+
+
+---
+
+## hypertext-links
+
+===
+
+| Markdown | Result |
+|----------|--------|
+| ```[An inline-style link](http://literasee.io)``` | [An inline-style link](http://literasee.io)|
+| ```[An inline-style link with title](http://literasee.io "Literasee Homepage")``` | [An inline-style link with title](http://literasee.io "Literasee Homepage") |
+| ```[A reference-style link][Arbitrary case-insensitive reference text]``` | [A reference-style link][Arbitrary case-insensitive reference text] |
+| ```[A numbered reference-style link][1]``` | [A numbered reference-style link][1] |
+| ```[A relative reference to a repository file](../blob/master/LICENSE)``` | [A relative reference to a repository file](../blob/master/LICENSE) |
