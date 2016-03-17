@@ -124,3 +124,14 @@ Inline-style:
 
 Inline-style:
 ![alt text](https://avatars0.githubusercontent.com/u/16685371?v=3&s=200 "Literasee logo")
+
+---
+
+## Embedded videos
+
+===
+
+Markdown doesn't directly support the inclusion of videos. However, Markdown
+supports HTML which can be used to embed videos
+
+<iframe style=“border: 2px solid #111111;” src="https://player.vimeo.com/video/62604492?color=c9ff23&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
