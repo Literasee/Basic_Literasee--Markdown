@@ -236,10 +236,10 @@ Reference-style:
 
 ## Embedding D3 visualizations (via blocks)
 
-<iframe src="https://google.com" />
+<iframe src="//google.com" />
 
 
-<iframe src="http://bl.ocks.org/emeeks/raw/9673c96a682fe3948379/" />`
+<iframe src="//bl.ocks.org/emeeks/raw/9673c96a682fe3948379/" />`
 
 
 ---
