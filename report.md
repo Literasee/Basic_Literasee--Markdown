@@ -6,13 +6,13 @@ text that can be converted to HTML for web-based rendering. **Content creation o
 
 Markdown supports numerous types of content/text formatting including:
 
-* [Headers](#headers) 
+* [Headers](#headers)
 * [Text](#text)
 * [Lists](#lists)
 * [Tables](#tables)
 * [Hypertext links](#hypertext-links)
-* [Embedded images](#embedded-images)
-* [Embedded videos](#embedded-videos)
+* [Embedding images](#embedding-images)
+* [Embedding videos](#embedding-videos)
 * [Blockquotes](#blockquotes)
 * [Code & syntax highlighting](#code-syntax-highlighting)
 * [Horizontal rules](#horizontal-rules)
@@ -106,7 +106,7 @@ _**Bold Italic**_ or **_Bold Italic_**
 
 ## Tables
 
-You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), 
+You can create tables by assembling a list of words and dividing them with hyphens - (for the first row),
 and then separating each column with a pipe |:
 
 ```
@@ -168,8 +168,8 @@ Note that the dashes at the top don't need to match the length of the header tex
 | ```[A numbered reference-style link][1]``` | [A numbered reference-style link][1] |
 | ```[A relative reference to a repository file](../blob/master/LICENSE)``` | [A relative reference to a repository file](../blob/master/LICENSE) |
 
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com> and sometimes 
+URLs and URLs in angle brackets will automatically get turned into links.
+http://www.example.com or <http://www.example.com> and sometimes
 example.com (but not on Github, for example).
 
 Some text to show that the reference links can follow later.
@@ -186,8 +186,8 @@ Some text to show that the reference links can follow later.
 | ```[A numbered reference-style link][1]``` | [A numbered reference-style link][1] |
 | ```[A relative reference to a repository file](../blob/master/LICENSE)``` | [A relative reference to a repository file](../blob/master/LICENSE) |
 
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com> and sometimes 
+URLs and URLs in angle brackets will automatically get turned into links.
+http://www.example.com or <http://www.example.com> and sometimes
 example.com (but not on Github, for example).
 
 Some text to show that the reference links can follow later.
@@ -198,24 +198,24 @@ Some text to show that the reference links can follow later.
 ---
 
 
-## Embedded images
+## Embedding images
 
 Literasee logo embedded inline and reference (hover to see the title text):
 
 ```
-Inline-style: 
+Inline-style:
 ![alt text](https://avatars0.githubusercontent.com/u/16685371?v=3&s=200 "Literasee logo")
 
-Reference-style: 
+Reference-style:
 ![alt text][logo]
 
 [logo]: https://avatars0.githubusercontent.com/u/16685371?v=3&s=200 "Literasee logo"
 ```
 
-Inline-style: 
+Inline-style:
 ![alt text](https://avatars0.githubusercontent.com/u/16685371?v=3&s=200 "Literasee logo")
 
-Reference-style: 
+Reference-style:
 ![alt text][logo]
 
 [logo]: https://avatars0.githubusercontent.com/u/16685371?v=3&s=200 "Literasee logo"
@@ -223,7 +223,25 @@ Reference-style:
 
 ---
 
-## Embedded videos
+## Embedding vector graphics:
+
+```
+<a href="https://literasee.github.io"><img src="https://literasee.github.io/public/Literasee_symbol_right_trimmed.svg" style="width: 100%;"></a>
+```
+
+<a href="https://literasee.github.io"><img src="https://literasee.github.io/public/Literasee_symbol_right_trimmed.svg" style="width: 100%;"></a>
+
+
+---
+
+## Embedding D3 visualizations (via blocks)
+
+<iframe src="http://bl.ocks.org/emeeks/raw/9673c96a682fe3948379/" />`
+
+
+---
+
+## Embedding videos
 
 Markdown doesn't directly support the inclusion of videos. However, Markdown
 supports HTML which can be used to embed videos
@@ -240,7 +258,7 @@ supports HTML which can be used to embed videos
 
 Quote break.
 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
+> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
 ```
 
 > Blockquotes are very handy in email to emulate reply text.
@@ -248,7 +266,7 @@ Quote break.
 
 Quote break.
 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
+> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
 
 ---
 
@@ -300,5 +318,3 @@ Asterisks
 ___
 
 Underscores
-
-
