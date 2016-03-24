@@ -271,6 +271,27 @@ Reference-style:
 
 ---
 
+---
+
+## Embedding a Plotly visualizations
+
+```
+<iframe
+    src="https://plot.ly/~matlab_user_guide/1963.embed?width=640&height=480."
+    width="800"
+    height="600">
+</iframe>
+```
+
+<iframe
+    src="https://plot.ly/~matlab_user_guide/1963.embed?width=640&height=480."
+    width="800"
+    height="600">
+</iframe>
+
+---
+
+
 ## Embedding videos
 
 Markdown doesn't directly support the inclusion of videos. However, Markdown
