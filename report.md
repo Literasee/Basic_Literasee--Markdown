@@ -286,7 +286,7 @@ Reference-style:
 ```
 
 <iframe
-    src="https://plot.ly/~matlab_user_guide/1963.embed?width=640&height=480."
+    src="https://plot.ly/~matlab_user_guide/1963.embed?width=800&height=600."
     width="800"
     height="600">
 </iframe>
