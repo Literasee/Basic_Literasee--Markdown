@@ -241,6 +241,29 @@ Reference-style:
 
 ---
 
+## Embedding a Tableau visualizations
+
+```
+<iframe
+  style="border: 0px;"
+  src="http://public.tableausoftware.com/views/champions/champions?:embed=y&amp;:from_wg=true"
+  scrolling="no"
+  width="652px"
+  height="756px">
+</iframe>
+```
+
+<iframe
+  style="border: 0px;"
+  src="http://public.tableausoftware.com/views/champions/champions?:embed=y&amp;:from_wg=true"
+  scrolling="no"
+  width="652px"
+  height="756px">
+</iframe>
+
+
+---
+
 ## Embedding videos
 
 Markdown doesn't directly support the inclusion of videos. However, Markdown
