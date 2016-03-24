@@ -226,7 +226,7 @@ Reference-style:
 
 ---
 
-## Embedding vector graphics:
+## Embedding vector graphics
 
 ```
 <a href="https://literasee.github.io"><img src="https://literasee.github.io/public/Literasee_symbol_right_trimmed.svg" style="width: 100%;"></a>
