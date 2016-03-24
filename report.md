@@ -235,6 +235,14 @@ Reference-style:
 
 ## Embedding D3 visualizations (via blocks)
 
+```
+<iframe
+    width="100%"
+    height="510"
+    scrolling="no" src="https://rawgit.com/bclinkinbeard/0192cf1c32d6fc50d247/raw/689619eeefdb0d79c1d0cbca935ca677c13cdfce/index.html">
+</iframe>
+```
+
 <iframe
     width="100%"
     height="510"
@@ -248,20 +256,16 @@ Reference-style:
 
 ```
 <iframe
-  style="border: 0px;"
-  src="http://public.tableausoftware.com/views/champions/champions?:embed=y&amp;:from_wg=true"
-  scrolling="no"
-  width="652px"
-  height="756px">
+    src="https://online.tableau.com/t/Sales/views/MyCoSales/SalesScoreCard?:embed=yes&:tabs=yes&:toolbar=yes"
+    width="800"
+    height="600">
 </iframe>
 ```
 
 <iframe
-  style="border: 0px;"
-  src="http://public.tableausoftware.com/views/champions/champions?:embed=y&amp;:from_wg=true"
-  scrolling="no"
-  width="652px"
-  height="756px">
+    src="https://online.tableau.com/t/Sales/views/MyCoSales/SalesScoreCard?:embed=yes&:tabs=yes&:toolbar=yes"
+    width="800"
+    height="600">
 </iframe>
 
 
