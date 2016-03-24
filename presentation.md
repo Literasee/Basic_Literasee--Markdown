@@ -141,15 +141,15 @@ _**Bold Italic**_ or **_Bold Italic_**
 
 ```
 <iframe
-    width="100%"
-    height="510"
+    width="70%"
+    height="400"
     scrolling="no" src="https://rawgit.com/bclinkinbeard/0192cf1c32d6fc50d247/raw/689619eeefdb0d79c1d0cbca935ca677c13cdfce/index.html">
 </iframe>
 ```
 
 <iframe
-    width="100%"
-    height="510"
+    width="70%"
+    height="400"
     scrolling="no" src="https://rawgit.com/bclinkinbeard/0192cf1c32d6fc50d247/raw/689619eeefdb0d79c1d0cbca935ca677c13cdfce/index.html">
 </iframe>
 
@@ -161,15 +161,15 @@ _**Bold Italic**_ or **_Bold Italic_**
 ```
 <iframe
     src="https://public.tableau.com/views/50YearsofCrime/USCrimeDashboard?:embed=y&:loadOrderID=0&:display_count=yes&:showTabs=y"
-    width="800"
-    height="800">
+    width="400"
+    height="400">
 </iframe>
 ```
 
 <iframe
     src="https://public.tableau.com/views/50YearsofCrime/USCrimeDashboard?:embed=y&:loadOrderID=0&:display_count=yes&:showTabs=y"
-    width="800"
-    height="800">
+    width="400"
+    height="400">
 </iframe>
 
 
@@ -179,16 +179,16 @@ _**Bold Italic**_ or **_Bold Italic_**
 
 ```
 <iframe
-    src="https://plot.ly/~matlab_user_guide/1963.embed?width=640&height=480."
-    width="800"
-    height="600">
+    src="https://plot.ly/~matlab_user_guide/1963.embed?width=600&height=400."
+    width="600"
+    height="400">
 </iframe>
 ```
 
 <iframe
-    src="https://plot.ly/~matlab_user_guide/1963.embed?width=640&height=480."
-    width="800"
-    height="600">
+    src="https://plot.ly/~matlab_user_guide/1963.embed?width=600&height=400."
+    width="600"
+    height="400">
 </iframe>
 
 
