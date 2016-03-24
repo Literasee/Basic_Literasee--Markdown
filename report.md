@@ -19,7 +19,6 @@ Markdown supports numerous types of content/text formatting including:
 
 ---
 
-
 ## Headers
 
 ```
