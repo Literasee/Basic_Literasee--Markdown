@@ -255,7 +255,7 @@ Reference-style:
 
 <iframe
   style="border: 0px;"
-  src="http://public.tableausoftware.com/views/champions/champions?:embed=y&amp;:from_wg=true"
+  src="http://public.tableau.com/views/champions/champions?:embed=y&:display_count=yes&:showTabs=y"
   scrolling="no"
   width="652px"
   height="756px">
