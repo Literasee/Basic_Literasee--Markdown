@@ -115,15 +115,82 @@ _**Bold Italic**_ or **_Bold Italic_**
 
 ===
 
-Literasee logo embedded inline and reference (hover to see the title text):
+### Embedded bitmap images
 
 ```
-Inline-style:
 ![alt text](https://avatars0.githubusercontent.com/u/16685371?v=3&s=200 "Literasee logo")
 ```
 
-Inline-style:
 ![alt text](https://avatars0.githubusercontent.com/u/16685371?v=3&s=200 "Literasee logo")
+
+
+===
+
+### Embedding vector graphics
+
+```
+<a href="https://literasee.github.io"><img src="https://literasee.github.io/public/Literasee_symbol_right_trimmed.svg" style="width: 100%;"></a>
+```
+
+<a href="https://literasee.github.io"><img src="https://literasee.github.io/public/Literasee_symbol_right_trimmed.svg" style="width: 100%;"></a>
+
+
+===
+
+### Embedding D3 visualizations
+
+```
+<iframe
+    width="100%"
+    height="510"
+    scrolling="no" src="https://rawgit.com/bclinkinbeard/0192cf1c32d6fc50d247/raw/689619eeefdb0d79c1d0cbca935ca677c13cdfce/index.html">
+</iframe>
+```
+
+<iframe
+    width="100%"
+    height="510"
+    scrolling="no" src="https://rawgit.com/bclinkinbeard/0192cf1c32d6fc50d247/raw/689619eeefdb0d79c1d0cbca935ca677c13cdfce/index.html">
+</iframe>
+
+
+===
+
+### Embedding Tableau visualizations
+
+```
+<iframe
+    src="https://public.tableau.com/views/50YearsofCrime/USCrimeDashboard?:embed=y&:loadOrderID=0&:display_count=yes&:showTabs=y"
+    width="800"
+    height="800">
+</iframe>
+```
+
+<iframe
+    src="https://public.tableau.com/views/50YearsofCrime/USCrimeDashboard?:embed=y&:loadOrderID=0&:display_count=yes&:showTabs=y"
+    width="800"
+    height="800">
+</iframe>
+
+
+===
+
+### Embedding Plotly visualizations
+
+```
+<iframe
+    src="https://plot.ly/~matlab_user_guide/1963.embed?width=640&height=480."
+    width="800"
+    height="600">
+</iframe>
+```
+
+<iframe
+    src="https://plot.ly/~matlab_user_guide/1963.embed?width=640&height=480."
+    width="800"
+    height="600">
+</iframe>
+
 
 ---
 
