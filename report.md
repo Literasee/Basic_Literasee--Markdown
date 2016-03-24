@@ -235,8 +235,11 @@ Reference-style:
 
 ## Embedding D3 visualizations (via blocks)
 
-<iframe src="//cdn.rawgit.com/espinielli/75209760a6d8f8922e9c/raw/9ac287b7c808d19eba58ee4a162985e1d8bf5121/index.html"></iframe>
-
+<iframe
+    width="100%"
+    height="510"
+    scrolling="no" src="https://rawgit.com/bclinkinbeard/0192cf1c32d6fc50d247/raw/689619eeefdb0d79c1d0cbca935ca677c13cdfce/index.html">
+</iframe>
 
 
 ---
@@ -253,7 +256,13 @@ Reference-style:
 </iframe>
 ```
 
-<script type='text/javascript' src='http://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 654px; height: 799px;'><noscript><a href='#'><img alt='champions ' src='http:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ch&#47;champions&#47;champions&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='654' height='799' style='display:none;'><param name='host_url' value='http%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='champions&#47;champions' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='http:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ch&#47;champions&#47;champions&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showTabs' value='y' /></object></div>
+<iframe
+  style="border: 0px;"
+  src="http://public.tableausoftware.com/views/champions/champions?:embed=y&amp;:from_wg=true"
+  scrolling="no"
+  width="652px"
+  height="756px">
+</iframe>
 
 
 ---
