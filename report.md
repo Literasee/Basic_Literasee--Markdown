@@ -256,16 +256,16 @@ Reference-style:
 
 ```
 <iframe
-    src="https://online.tableau.com/t/Sales/views/MyCoSales/SalesScoreCard?:embed=yes&:tabs=yes&:toolbar=yes"
+    src="https://public.tableau.com/views/50YearsofCrime/USCrimeDashboard?:embed=y&:loadOrderID=0&:display_count=yes&:showTabs=y"
     width="800"
-    height="600">
+    height="800">
 </iframe>
 ```
 
 <iframe
     src="https://public.tableau.com/views/50YearsofCrime/USCrimeDashboard?:embed=y&:loadOrderID=0&:display_count=yes&:showTabs=y"
     width="800"
-    height="600">
+    height="800">
 </iframe>
 
 
