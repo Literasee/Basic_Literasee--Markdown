@@ -12,6 +12,10 @@ Markdown supports numerous types of content/text formatting including:
 * [Tables](#tables)
 * [Hypertext links](#hypertext-links)
 * [Embedding images](#embedding-images)
+    - [Embedding vector graphics](#embedding-vector-graphics)
+    - [Embedding D3 visualizations](embedding-d3-visualizations)
+    - [Embedding Tableau visualizations](embedding-tableau-visualizations)
+    - [Embedding Plotly visualizations](embedding-plotly-visualizations)
 * [Embedding videos](#embedding-videos)
 * [Blockquotes](#blockquotes)
 * [Code & syntax highlighting](#code-syntax-highlighting)
@@ -233,7 +237,7 @@ Reference-style:
 
 ---
 
-## Embedding D3 visualizations (via blocks)
+## Embedding D3 visualizations
 
 ```
 <iframe
@@ -252,7 +256,7 @@ Reference-style:
 
 ---
 
-## Embedding a Tableau visualizations
+## Embedding Tableau visualizations
 
 ```
 <iframe
@@ -271,9 +275,7 @@ Reference-style:
 
 ---
 
----
-
-## Embedding a Plotly visualizations
+## Embedding Plotly visualizations
 
 ```
 <iframe
@@ -290,7 +292,6 @@ Reference-style:
 </iframe>
 
 ---
-
 
 ## Embedding videos
 
