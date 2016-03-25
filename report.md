@@ -11,7 +11,8 @@ Markdown supports numerous types of content/text formatting including:
 * [Lists](#lists)
 * [Tables](#tables)
 * [Hypertext links](#hypertext-links)
-* [Embedding images](#embedding-images)
+* [Embedding graphics](#embedding-graphics)
+  - [Embedding bitmap graphics](#embedding-bitmap-graphics)
   - [Embedding vector graphics](#embedding-vector-graphics)
   - [Embedding D3 visualizations](#embedding-d3-visualizations)
   - [Embedding Tableau visualizations](#embedding-tableau-visualizations)
@@ -201,11 +202,11 @@ Some text to show that the reference links can follow later.
 ---
 
 
-## Embedding images
+## Embedding graphics
 
-Because Literasee is web-based, it can embed a variety of images/visualizations.
+Because Literasee is web-based, it can embed a variety of graphics/images/visualizations.
 
-### Embedded bitmap images
+### Embedded bitmap graphics
 
 Literasee logo embedded inline and reference (hover to see the title text):
 
