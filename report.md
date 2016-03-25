@@ -10,6 +10,9 @@ Markdown supports numerous types of content/text formatting including:
 * [Text](#text)
 * [Lists](#lists)
 * [Tables](#tables)
+* [Blockquotes](#blockquotes)
+* [Code & syntax highlighting](#code-syntax-highlighting)
+* [Horizontal rules](#horizontal-rules)
 * [Hypertext links](#hypertext-links)
 * [Embedding graphics](#embedding-graphics)
   - [Embedding bitmap graphics](#embedding-bitmap-graphics)
@@ -18,9 +21,7 @@ Markdown supports numerous types of content/text formatting including:
   - [Embedding Tableau visualizations](#embedding-tableau-visualizations)
   - [Embedding Plotly visualizations](#embedding-plotly-visualizations)
 * [Embedding videos](#embedding-videos)
-* [Blockquotes](#blockquotes)
-* [Code & syntax highlighting](#code-syntax-highlighting)
-* [Horizontal rules](#horizontal-rules)
+
 
 ---
 
@@ -160,6 +161,79 @@ Note that the dashes at the top don't need to match the length of the header tex
 
 ---
 
+## Blockquotes
+
+```
+> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
+
+Quote break.
+
+> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
+```
+
+> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
+
+Quote break.
+
+> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
+
+---
+
+
+## Code & syntax highlighting
+
+
+```javascript
+if (isAwesome){
+  return true
+}
+```
+
+
+```R
+x <- rnorm(100, mean=50, sd=10)
+y <- x + rnorm(100)
+plot(x, y)
+```
+
+---
+
+## Horizontal rules
+
+```
+Three or more...
+
+---
+
+Hyphens
+
+***
+
+Asterisks
+
+___
+
+Underscores
+```
+
+Three or more...
+
+---
+
+Hyphens
+
+***
+
+Asterisks
+
+___
+
+Underscores
+
+
+---
 
 ## Hypertext links
 
@@ -304,74 +378,3 @@ Markdown doesn't directly support the inclusion of videos. However, Markdown
 supports HTML which can be used to embed videos
 
 <iframe style=“border: 2px solid #111111;” src="https://player.vimeo.com/video/62604492?color=c9ff23&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
----
-
-## Blockquotes
-
-```
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
-```
-
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
-
----
-
-
-## Code & syntax highlighting
-
-
-```javascript
-if (isAwesome){
-  return true
-}
-```
-
-
-```R
-x <- rnorm(100, mean=50, sd=10)
-y <- x + rnorm(100)
-plot(x, y)
-```
-
-## Horizontal rules
-
-```
-Three or more...
-
----
-
-Hyphens
-
-***
-
-Asterisks
-
-___
-
-Underscores
-```
-
-Three or more...
-
----
-
-Hyphens
-
-***
-
-Asterisks
-
-___
-
-Underscores
