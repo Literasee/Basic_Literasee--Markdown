@@ -280,7 +280,7 @@ Some text to show that the reference links can follow later.
 
 Because Literasee is web-based, it can embed a variety of graphics/images/visualizations.
 
-### Embedded bitmap graphics
+### Embedding bitmap graphics
 
 Literasee logo embedded inline and reference (hover to see the title text):
 
