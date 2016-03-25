@@ -203,6 +203,10 @@ Some text to show that the reference links can follow later.
 
 ## Embedding images
 
+Because Literasee is web-based, it can embed a variety of images/visualizations.
+
+### Embedded bitmap images
+
 Literasee logo embedded inline and reference (hover to see the title text):
 
 ```
@@ -226,7 +230,7 @@ Reference-style:
 
 ---
 
-## Embedding vector graphics
+### Embedding vector graphics
 
 ```
 <a href="https://literasee.github.io"><img src="https://literasee.github.io/public/Literasee_symbol_right_trimmed.svg" style="width: 100%;"></a>
@@ -237,7 +241,7 @@ Reference-style:
 
 ---
 
-## Embedding D3 visualizations
+### Embedding D3 visualizations
 
 ```
 <iframe
@@ -256,7 +260,7 @@ Reference-style:
 
 ---
 
-## Embedding Tableau visualizations
+### Embedding Tableau visualizations
 
 ```
 <iframe
@@ -275,7 +279,7 @@ Reference-style:
 
 ---
 
-## Embedding Plotly visualizations
+### Embedding Plotly visualizations
 
 ```
 <iframe
