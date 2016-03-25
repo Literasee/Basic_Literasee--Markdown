@@ -308,7 +308,10 @@ Reference-style:
 ### Embedding vector graphics
 
 ```
-<a href="https://literasee.github.io"><img src="https://literasee.github.io/public/Literasee_symbol_right_trimmed.svg" style="width: 100%;"></a>
+<a href="https://literasee.github.io">
+    <img src="https://literasee.github.io/public/Literasee_symbol_right_trimmed.svg"
+    style="width: 100%;">
+</a>
 ```
 
 <a href="https://literasee.github.io"><img src="https://literasee.github.io/public/Literasee_symbol_right_trimmed.svg" style="width: 100%;"></a>
@@ -376,6 +379,17 @@ Reference-style:
 ## Embedding videos
 
 Markdown doesn't directly support the inclusion of videos. However, Markdown
-supports HTML which can be used to embed videos
+supports HTML which can be used to embed videos:
+
+```
+<iframe
+    style=“border: 2px solid #111111;”
+    src="https://player.vimeo.com/video/62604492?color=c9ff23&byline=0&portrait=0"
+    width="800"
+    height="450"
+    frameborder="0"
+    webkitallowfullscreen mozallowfullscreen allowfullscreen>
+</iframe>
+```
 
 <iframe style=“border: 2px solid #111111;” src="https://player.vimeo.com/video/62604492?color=c9ff23&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
