@@ -185,7 +185,7 @@ Quote break.
 ## Code & syntax highlighting
 
 
-```javascript
+```js
 if (isAwesome){
   return true
 }
