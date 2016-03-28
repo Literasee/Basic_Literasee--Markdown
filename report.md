@@ -258,11 +258,11 @@ Some text to show that the reference links can follow later.
 
 | Markdown | Result |
 |----------|--------|
-| ```[An inline-style link](http://literasee.io)``` | [An inline-style link](http://literasee.io)|
-| ```[An inline-style link with title](http://literasee.io "Literasee Homepage")``` | [An inline-style link with title](http://literasee.io "Literasee Homepage") |
-| ```[A reference-style link][Arbitrary case-insensitive reference text]``` | [A reference-style link][Arbitrary case-insensitive reference text] |
-| ```[A numbered reference-style link][1]``` | [A numbered reference-style link][1] |
-| ```[A relative reference to a repository file](../blob/master/LICENSE)``` | [A relative reference to a repository file](../blob/master/LICENSE) |
+| `[An inline-style link](http://literasee.io)` | [An inline-style link](http://literasee.io)|
+| `[An inline-style link with title](http://literasee.io "Literasee Homepage")` | [An inline-style link with title](http://literasee.io "Literasee Homepage") |
+| `[A reference-style link][Arbitrary case-insensitive reference text]` | [A reference-style link][Arbitrary case-insensitive reference text] |
+| `[A numbered reference-style link][1]` | [A numbered reference-style link][1] |
+| `[A relative reference to a repository file](../blob/master/LICENSE)` | [A relative reference to a repository file](../blob/master/LICENSE) |
 
 URLs and URLs in angle brackets will automatically get turned into links.
 http://www.example.com or <http://www.example.com> and sometimes
